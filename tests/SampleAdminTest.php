@@ -25,7 +25,5 @@ class SampleAdminTest extends OpenCartTest
         $this->assertRegExp('/Please enter your login details./', $response->getOutput());
     }
 
-
-
 }
 
